@@ -9,10 +9,6 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <link rel="stylesheet" href="../../assets/css/globals.css">
     <style>
-        .custom-border {
-            border-radius: 1.5rem;
-        }
-
         .custom-padding {
             padding-top: 4rem;
             padding-bottom: 4rem;

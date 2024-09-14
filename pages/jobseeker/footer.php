@@ -11,7 +11,7 @@
 
 <body>
   <!-- footer -->
-  <footer class="footer py-3 bg-light">
+  <footer class="footer py-4 bg-light mb-0">
     <div class="container text-end">
       <span class="text-muted">Copyright © 2024, TalentLaunch</span>
     </div>
