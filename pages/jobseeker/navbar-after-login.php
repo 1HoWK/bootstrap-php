@@ -13,6 +13,8 @@
       color: #fafafa !important;
     }
   </style>
+  </script>
+  </script>
 </head>
 
 <body>

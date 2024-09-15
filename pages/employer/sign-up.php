@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Employer Sign Up</title>
     <!-- CDN for Bootstrap 5.1.3 dependencies  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <?php include '../non-user/navbar-before-login.php'; ?>
+    <?php include '../general/navbar-before-login.php'; ?>
     <div class="container d-flex justify-content-center">
         <div class="row my-5 border custom-border p-5 w-75" style="background-color: #002366;">
             <div
@@ -43,7 +43,7 @@
                         <input type="password" class="form-control" id="password" placeholder="Enter your password">
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <button type="submit" class="btn btn-primary rounded-pill w-50 text-center">Sign Up</button>
+                        <button type="submit" class="btn btn-primary rounded-pill w-50 text-center custom-button-bg">Sign Up</button>
                     </div>
                 </form>
             </div>

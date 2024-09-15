@@ -46,7 +46,7 @@
               value="Graphic designer" disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
         <div class="row mt-5 align-items-center">
@@ -55,7 +55,7 @@
               value="3D Animation Designer" disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
         <div class="row mt-5 align-items-center">
@@ -64,7 +64,7 @@
               disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
         <div class="row mt-5 align-items-center">
@@ -73,7 +73,7 @@
               value="Interior Designer" disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
         <div class="row mt-5 align-items-center">
@@ -82,7 +82,7 @@
               value="UI/UX Designer" disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
         <div class="row mt-5 align-items-center">
@@ -91,14 +91,14 @@
               disabled />
           </div>
           <div class="col-auto">
-            <button class="btn btn-primary rounded-pill">Unlike</button>
+            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <?php include './footer.php'; ?>
+  <?php include '../general/footer.php'; ?>
 
   <!-- CDN for Bootstrap 5.1.3 dependencies  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

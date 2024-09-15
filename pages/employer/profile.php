@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jobseeker Profile</title>
+    <title>Employer Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../assets/css/globals.css">
@@ -13,15 +13,15 @@
     <?php include './navbar-after-login.php'; ?>
     <div class="container mt-5">
         <div class="row">
-            <h1>Profile</h1>
+            <h1>Employer Profile</h1>
             <div class="col-md-8">
                 <div class="mb-3">
-                    <label for="username" class="form-label">User Name:</label>
-                    <input type="text" class="form-control" id="username" value="Zi Hao" disabled>
+                    <label for="companyName" class="form-label">Company Name:</label>
+                    <input type="text" class="form-control" id="companyName" value="Western Digital Malaysia" disabled>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" value="zihao@gmail.com" disabled>
+                    <input type="email" class="form-control" id="email" value="wdmalaysia@gmail.com" disabled>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password:</label>
@@ -29,25 +29,28 @@
                 </div>
                 <div class="mb-3">
                     <label for="contactNumber" class="form-label">Contact Number:</label>
-                    <input type="tel" class="form-control" id="contactNumber" value="+60123546738" disabled>
+                    <input type="tel" class="form-control" id="contactNumber" value="+60176352673" disabled>
                 </div>
                 <div class="mb-3">
                     <label for="introduction" class="form-label">Introduction:</label>
-                    <textarea class="form-control" id="introduction" aria-label="With textarea" disabled></textarea>
+                    <textarea class="form-control" id="introduction" aria-label="With textarea"
+                        disabled>Hiring New Graduates</textarea>
                 </div>
                 <div class="mb-3">
-                    <label for="resume" class="form-label">Resume:</label>
-                    <input type="text" class="form-control" id="resume" value="resume.pdf" disabled>
+                    <label for="ssm" class="form-label">SSM:</label>
+                    <input type="text" class="form-control" id="ssm" value="AS0371397" disabled>
                 </div>
                 <div class="mb-3 d-flex justify-content-end">
-                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg">Edit Profile</button>
+                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg rounded-pill">Edit Profile</button>
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
-                <img src="../../assets/image/profile-icon.png" alt="Profile Picture" class="img-fluid mb-4"
-                    style="width: 200px; height: 200px;">
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg">Application</button>
-                <button type="button" class="btn btn-primary w-50 w-md-25 custom-button-bg">Log Out</button>
+                <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
+                    style="width: 350px; height: 200px;">
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill">Job Listings</button>
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill">Upload Job</button>
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill">Application</button>
+                <button type="button" class="btn btn-outline-primary w-50 w-md-25 rounded-pill">Log Out</button>
             </div>
         </div>
     </div>

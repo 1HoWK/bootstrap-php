@@ -25,7 +25,7 @@
 
     </div>
 
-    <?php include './footer.php'; ?>
+    <?php include '../general/footer.php'; ?>
 
     <!-- CDN for Bootstrap 5.1.3 dependencies  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
