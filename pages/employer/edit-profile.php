@@ -19,6 +19,18 @@
         function redirectToApplicant() {
             window.location.assign('applicant.php');
         }
+
+        function previewNewProfileImage(event) {
+            const imageFile = event.target.files[0];
+            if (imageFile) {
+                const fileReader = new FileReader();
+                fileReader.onload = function (e) {
+                    const imgElement = document.getElementById('profile-pic'); // refer to the element with this id
+                    imgElement.src = e.target.result;
+                };
+                fileReader.readAsDataURL(imageFile);
+            }
+        }
     </script>
 </head>
 
@@ -59,9 +71,28 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
-                <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
-                    style="width: 350px; height: 200px;">
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill"
+                <!-- <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
+                    style="width: 350px; height: 200px;"> -->
+                    <label style="cursor: pointer;" class="d-inline-block position-relative">
+                    <img id="profile-pic" src="../../assets/image/wd-logo.png" alt="Profile Picture"
+                        class="img-fluid mb-4" style="width: 350px; height: 200px;">
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-50 text-white rounded-3">
+                        <div class="d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-upload me-2" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                                <path
+                                    d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+                            </svg>
+                            <span><strong>Upload</strong></span>
+                        </div>
+                    </div>
+                    <input type="file" accept="image/*" style="display: none;"
+                        onchange="previewNewProfileImage(event)">
+                </label>   
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 mt-5 custom-button-bg rounded-pill"
                     onclick="redirectToJobListing()">Job
                     Listings</button>
                 <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill"
