@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Profile</title>
+    <title>Edit Jobseeker Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <style>
-        function previewImage(event) {
-            const file=event.target.files[0];
-
-            if (file) {
-                const reader=new FileReader();
-
-                reader.onload=function(e) {
-                    document.querySelector('img').src=e.target.result;
-                }
-
-                ;
-                reader.readAsDataURL(file);
-            }
+    <script>
+        function redirectToEditProfile() {
+            window.location.assign('edit-profile.php');
         }
-    </style>
+
+        function redirectToApplication() {
+            window.location.assign('application.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -68,7 +61,7 @@
                     <input id="profile-pic-upload" type="file" accept="image/*" style="display: none;"
                         onchange="previewImage(event)">
                 </label>
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg">Application</button>
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg" onclick="redirectToApplication()">Application</button>
                 <button type="button" class="btn btn-outline-primary w-50 w-md-25">Log Out</button>
             </div>
         </div>

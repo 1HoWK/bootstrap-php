@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Employer</a>
+            <a class="nav-link" href="profile.php">Employer</a>
           </li>
         </ul>
       </div>

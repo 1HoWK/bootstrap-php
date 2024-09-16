@@ -7,6 +7,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../assets/css/globals.css">
+    <script>
+        function redirectToEditProfile() {
+            window.location.assign('edit-profile.php');
+        }
+
+        function redirectToApplication() {
+            window.location.assign('application.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -40,13 +49,13 @@
                     <input type="text" class="form-control" id="resume" value="resume.pdf" disabled>
                 </div>
                 <div class="mb-3 d-flex justify-content-end">
-                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg">Edit Profile</button>
+                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg" onclick="redirectToEditProfile()">Edit Profile</button>
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <img src="../../assets/image/profile-icon.png" alt="Profile Picture" class="img-fluid mb-4"
                     style="width: 200px; height: 200px;">
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg">Application</button>
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg" onclick="redirectToApplication()">Application</button>
                 <button type="button" class="btn btn-primary w-50 w-md-25 custom-button-bg">Log Out</button>
             </div>
         </div>

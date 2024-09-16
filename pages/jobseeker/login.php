@@ -16,6 +16,11 @@
             padding-right: 2rem;
         }
     </style>
+     <script>
+        function redirectToSignup() {
+            window.location.assign('sign-up.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -28,7 +33,7 @@
                 <h1 class="mb-5 text-center">TALENT LAUNCH</h1>
                 <form class="w-100">
                     <div class="mb-1 text-end">
-                        <a href="#" class="text-secondary" onclick="window.location='sign-up.php';"><small>Don't have an account?</small></a>
+                        <a href="#" class="text-secondary" onclick="redirectToSignup()"><small>Don't have an account?</small></a>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label"><strong>Username/Email</strong></label>

@@ -13,8 +13,6 @@
       color: #fafafa !important;
     }
   </style>
-  </script>
-  </script>
 </head>
 
 <body>
@@ -31,19 +29,19 @@
       <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="home.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about-us.php">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Likes</a>
+            <a class="nav-link" href="like.php">Likes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="profile.php">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Employer</a>
+            <a class="nav-link" href="../employer/login.php">Employer</a>
           </li>
         </ul>
       </div>

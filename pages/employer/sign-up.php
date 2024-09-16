@@ -20,6 +20,11 @@
             padding-right: 2rem;
         }
     </style>
+    <script>
+        function redirectToLogin() {
+            window.location.assign('login.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -32,7 +37,7 @@
                 <h1 class="mb-5 text-center">TALENT LAUNCH</h1>
                 <form class="w-100">
                     <div class="mb-1 text-end">
-                        <a href="#" class="text-secondary" onclick="window.location='login.php';"><small>Already have an account?</small></a>
+                        <a href="#" class="text-secondary" onclick="redirectToLogin()"><small>Already have an account?</small></a>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label"><strong>Employer/Email</strong></label>

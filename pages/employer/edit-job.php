@@ -46,12 +46,12 @@
                     </div>
                 </form>
             </div>
-           <div class="col-md-4 d-flex flex-column align-items-center">
-    <div class="d-flex justify-content-between w-100 mt-auto">
-        <button type="submit" class="btn btn-outline-primary w-50 me-2 mb-3 rounded-pill">Cancel</button>
-        <button type="button" class="btn btn-primary w-50 ms-2 mb-3 rounded-pill">Save</button>
-    </div>
-</div>
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <div class="d-flex justify-content-between w-100 mt-auto">
+                    <button type="submit" class="btn btn-outline-primary w-50 me-2 mb-3 rounded-pill">Cancel</button>
+                    <button type="button" class="btn btn-primary w-50 ms-2 mb-3 rounded-pill custom-button-bg">Save</button>
+                </div>
+            </div>
         </div>
     </div>
 

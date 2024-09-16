@@ -6,6 +6,11 @@
     <title>View Job</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script>
+        function redirectToEditJob() {
+            window.location.assign('edit-job.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -22,7 +27,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="companyName" class="form-label">Company Name:</label>
-                        <input type="text" class="form-control" id="companyName" value="Western Digital Malaysia" disabled>
+                        <input type="text" class="form-control" id="companyName" value="Western Digital Malaysia"
+                            disabled>
                     </div>
                     <div class="mb-3">
                         <label for="jobLocation" class="form-label">Job Location:</label>
@@ -38,8 +44,9 @@
                     </div>
                     <div class="mb-3">
                         <label for="description" class="form-label">Description:</label>
-                        <textarea class="form-control" aria-label="With textarea" id="description" value="" disabled>This is the default text that will appear in the textarea.</textarea>
-                        </div>
+                        <textarea class="form-control" aria-label="With textarea" id="description" value=""
+                            disabled>This is the default text that will appear in the textarea.</textarea>
+                    </div>
                     <div class="mb-3">
                         <label for="requirement" class="form-label">Requirement:</label>
                         <input type="text" class="form-control" id="requirement" value="CGPA 3.0" disabled>
@@ -49,7 +56,7 @@
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <div class="mt-auto d-flex justify-content-center w-100">
                     <button type="button"
-                        class="btn btn-primary mb-3 w-50 w-md-25 custom-button-bg rounded-pill">Edit</button>
+                        class="btn btn-primary mb-3 w-50 w-md-25 custom-button-bg rounded-pill" onclick="redirectToEditJob()">Edit</button>
                 </div>
             </div>
         </div>

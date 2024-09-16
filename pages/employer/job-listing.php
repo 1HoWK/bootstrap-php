@@ -7,6 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../assets/css/globals.css">
+    <script>
+        function redirectToEditJob() {
+            window.location.assign('edit-job.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -45,11 +50,22 @@
                 "title" => "3D Animator",
                 "allowance" => 700,
                 "dateTime" => "5/23/2024 12:50P.M."
+            ],
+            [
+                "title" => "3D Animator",
+                "allowance" => 700,
+                "dateTime" => "5/23/2024 12:50P.M."
+            ],
+            [
+                "title" => "3D Animator",
+                "allowance" => 700,
+                "dateTime" => "5/23/2024 12:50P.M."
             ]
         ];
         ?>
         <?php foreach ($jobListings as $job): ?>
-            <div class="row border custom-border border-secondary mt-3 p-2 d-flex align-items-center justify-content-center">
+            <div
+                class="row border custom-border border-secondary mt-3 p-2 d-flex align-items-center justify-content-center">
                 <div class="col-3 d-flex justify-content-center">
                     <p class="h6 mb-0"><?php echo $job["title"]; ?></p>
                 </div>
@@ -60,9 +76,11 @@
                     <p class="text-muted mb-0"><?php echo $job["dateTime"]; ?></p>
                 </div>
                 <div class="col-3 d-flex flex-column flex-sm-row justify-content-center align-items-center">
-            <button type="button" class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto">Edit</button>
-            <button type="button" class="btn btn-primary custom-button-bg rounded-pill w-100 w-sm-auto">Delete</button>
-        </div>
+                    <button type="button"
+                        class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto" onclick="redirectToEditJob()">Edit</button>
+                    <button type="button"
+                        class="btn btn-primary custom-button-bg rounded-pill w-100 w-sm-auto">Delete</button>
+                </div>
             </div>
         <?php endforeach; ?>
 
