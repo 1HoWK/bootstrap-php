@@ -76,8 +76,8 @@
                     <p class="text-muted mb-0"><?php echo $job["dateTime"]; ?></p>
                 </div>
                 <div class="col-3 d-flex flex-column flex-sm-row justify-content-center align-items-center">
-                    <button type="button"
-                        class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto" onclick="redirectToEditJob()">Edit</button>
+                    <button type="button" class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto"
+                        onclick="redirectToEditJob()">Edit</button>
                     <button type="button"
                         class="btn btn-primary custom-button-bg rounded-pill w-100 w-sm-auto">Delete</button>
                 </div>

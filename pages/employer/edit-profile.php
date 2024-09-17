@@ -73,7 +73,7 @@
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <!-- <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
                     style="width: 350px; height: 200px;"> -->
-                    <label style="cursor: pointer;" class="d-inline-block position-relative">
+                <label style="cursor: pointer;" class="d-inline-block position-relative">
                     <img id="profile-pic" src="../../assets/image/wd-logo.png" alt="Profile Picture"
                         class="img-fluid mb-4" style="width: 350px; height: 200px;">
                     <div
@@ -89,9 +89,8 @@
                             <span><strong>Upload</strong></span>
                         </div>
                     </div>
-                    <input type="file" accept="image/*" style="display: none;"
-                        onchange="previewNewProfileImage(event)">
-                </label>   
+                    <input type="file" accept="image/*" style="display: none;" onchange="previewNewProfileImage(event)">
+                </label>
                 <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 mt-5 custom-button-bg rounded-pill"
                     onclick="redirectToJobListing()">Job
                     Listings</button>

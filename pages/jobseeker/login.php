@@ -7,7 +7,7 @@
     <!-- CDN for Bootstrap 5.1.3 dependencies  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <link rel="stylesheet" href="../../assets/css/globals.css">
+    <link rel="stylesheet" href="../../assets/css/globals.css">
     <style>
         .custom-padding {
             padding-top: 4rem;
@@ -16,7 +16,7 @@
             padding-right: 2rem;
         }
     </style>
-     <script>
+    <script>
         function redirectToSignup() {
             window.location.assign('sign-up.php');
         }
@@ -33,7 +33,8 @@
                 <h1 class="mb-5 text-center">TALENT LAUNCH</h1>
                 <form class="w-100">
                     <div class="mb-1 text-end">
-                        <a href="#" class="text-secondary" onclick="redirectToSignup()"><small>Don't have an account?</small></a>
+                        <a href="#" class="text-secondary" onclick="redirectToSignup()"><small>Don't have an
+                                account?</small></a>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label"><strong>Username/Email</strong></label>
@@ -44,7 +45,8 @@
                         <input type="password" class="form-control" id="password" placeholder="Enter your password">
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <button type="submit" class="btn btn-primary rounded-pill w-50 text-center custom-button-bg">Log In</button>
+                        <button type="submit" class="btn btn-primary rounded-pill w-50 text-center custom-button-bg">Log
+                            In</button>
                     </div>
                 </form>
             </div>

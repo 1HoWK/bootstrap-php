@@ -84,8 +84,7 @@
                             <span><strong>Upload</strong></span>
                         </div>
                     </div>
-                    <input type="file" accept="image/*" style="display: none;"
-                        onchange="previewNewProfileImage(event)">
+                    <input type="file" accept="image/*" style="display: none;" onchange="previewNewProfileImage(event)">
                 </label>
                 <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 mt-5 custom-button-bg"
                     onclick="redirectToApplication()">Application</button>

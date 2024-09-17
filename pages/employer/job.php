@@ -55,8 +55,8 @@
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <div class="mt-auto d-flex justify-content-center w-100">
-                    <button type="button"
-                        class="btn btn-primary mb-3 w-50 w-md-25 custom-button-bg rounded-pill" onclick="redirectToEditJob()">Edit</button>
+                    <button type="button" class="btn btn-primary mb-3 w-50 w-md-25 custom-button-bg rounded-pill"
+                        onclick="redirectToEditJob()">Edit</button>
                 </div>
             </div>
         </div>

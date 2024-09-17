@@ -12,7 +12,7 @@
         .custom-border {
             border-radius: 1.5rem;
         }
- 
+
         .custom-padding {
             padding-top: 4rem;
             padding-bottom: 4rem;
