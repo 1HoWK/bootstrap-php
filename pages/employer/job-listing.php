@@ -8,8 +8,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../assets/css/globals.css">
     <script>
-        function redirectToEditJob() {
-            window.location.assign('edit-job.php');
+        function redirectToViewJob() {
+            window.location.assign('job.php');
         }
     </script>
 </head>
@@ -17,7 +17,7 @@
 <body>
     <?php include './navbar-after-login.php'; ?>
 
-    <div class="container text-center mb-5 ">
+    <div class="container text-center " style="margin-bottom: 8.95rem;">
         <h1 class="text-center my-5">Job Listings</h1>
         <div class="row border border-secondary rounded-pill p-2">
             <div class="col-3">
@@ -51,16 +51,16 @@
                 "allowance" => 700,
                 "dateTime" => "5/23/2024 12:50P.M."
             ],
-            [
-                "title" => "3D Animator",
-                "allowance" => 700,
-                "dateTime" => "5/23/2024 12:50P.M."
-            ],
-            [
-                "title" => "3D Animator",
-                "allowance" => 700,
-                "dateTime" => "5/23/2024 12:50P.M."
-            ]
+            // [
+            //     "title" => "3D Animator",
+            //     "allowance" => 700,
+            //     "dateTime" => "5/23/2024 12:50P.M."
+            // ],
+            // [
+            //     "title" => "3D Animator",
+            //     "allowance" => 700,
+            //     "dateTime" => "5/23/2024 12:50P.M."
+            // ]
         ];
         ?>
         <?php foreach ($jobListings as $job): ?>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-3 d-flex flex-column flex-sm-row justify-content-center align-items-center">
                     <button type="button" class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto"
-                        onclick="redirectToEditJob()">Edit</button>
+                        onclick="redirectToViewJob()">Edit</button>
                     <button type="button"
                         class="btn btn-primary custom-button-bg rounded-pill w-100 w-sm-auto">Delete</button>
                 </div>

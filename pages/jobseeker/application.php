@@ -55,20 +55,20 @@
                 "dateTime" => "6/23/2024 12:50P.M.",
                 "status" => "Accepted"
             ],
-            [
-                "title" => "Motion Designer",
-                "company" => "Samsung Electronics(M) Sdn Bhd",
-                "location" => "Negeri Sembilan",
-                "dateTime" => "4/23/2024 12:50P.M.",
-                "status" => "Pending"
-            ],
-            [
-                "title" => "Event Manager",
-                "company" => "Amway(Malaysia) Sdn Bhd",
-                "location" => "Johor",
-                "dateTime" => "1/23/2024 12:50P.M.",
-                "status" => "Pending"
-            ]
+            // [
+            //     "title" => "Motion Designer",
+            //     "company" => "Samsung Electronics(M) Sdn Bhd",
+            //     "location" => "Negeri Sembilan",
+            //     "dateTime" => "4/23/2024 12:50P.M.",
+            //     "status" => "Pending"
+            // ],
+            // [
+            //     "title" => "Event Manager",
+            //     "company" => "Amway(Malaysia) Sdn Bhd",
+            //     "location" => "Johor",
+            //     "dateTime" => "1/23/2024 12:50P.M.",
+            //     "status" => "Pending"
+            // ]
         ];
         ?>
         <?php foreach ($jobApplications as $jobApplication): ?>

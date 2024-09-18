@@ -12,7 +12,7 @@
 <body>
     <?php include './navbar-after-login.php'; ?>
 
-    <div class="container text-center mb-5 ">
+    <div class="container text-center" style="margin-bottom: 8.95rem;">
         <h1 class="text-center my-5">Application</h1>
         <div class="row border border-secondary rounded-pill p-2">
             <div class="col-3">
@@ -52,18 +52,18 @@
                 "dateTime" => "5/23/2024 12:50P.M.",
                 "resume" => "Danny-Resume.pdf"
             ],
-            [
-                "name" => "William Seng",
-                "title" => "Motion Designer",
-                "dateTime" => "5/23/2024 12:50P.M.",
-                "resume" => "William-Resume.pdf"
-            ],
-            [
-                "name" => "Jennifer Wong",
-                "title" => "Event Manager",
-                "dateTime" => "5/23/2024 12:50P.M.",
-                "resume" => "Jennifer-Resume.pdf"
-            ]
+            // [
+            //     "name" => "William Seng",
+            //     "title" => "Motion Designer",
+            //     "dateTime" => "5/23/2024 12:50P.M.",
+            //     "resume" => "William-Resume.pdf"
+            // ],
+            // [
+            //     "name" => "Jennifer Wong",
+            //     "title" => "Event Manager",
+            //     "dateTime" => "5/23/2024 12:50P.M.",
+            //     "resume" => "Jennifer-Resume.pdf"
+            // ]
         ];
         ?>
         <?php foreach ($applicants as $applicant): ?>
@@ -79,8 +79,8 @@
                     <p class="text-muted mb-0"><?php echo $applicant["dateTime"]; ?></p>
                 </div>
                 <div class="col-2 d-flex justify-content-center">
-                    <p class="text-muted mb-0"><u><?php echo $applicant["resume"]; ?></u></p>
-                </div>
+                    <a href="" class="h6 mb-0 text-muted"><?php echo $applicant["resume"]; ?></a>
+                </div>       
                 <div class="col-3 d-flex flex-column flex-sm-row justify-content-center align-items-center">
                     <button type="button"
                         class="btn btn-outline-primary mb-2 mb-sm-0 me-sm-2 rounded-pill w-100 w-sm-auto">Accept</button>

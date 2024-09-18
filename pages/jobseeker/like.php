@@ -28,7 +28,7 @@
 <body>
   <?php include './navbar-after-login.php'; ?>
 
-  <div class="container my-5">
+  <div class="container mt-5" style="margin-bottom: 10rem;">
     <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
       <div class="p-1 bd-highlight">
         <button class="back-button" onclick="back()">
@@ -67,33 +67,6 @@
         <div class="row mt-5 align-items-center">
           <div class="col">
             <input type="text" class="form-control text-center rounded-pill custom-input-disabled" value="Event manager"
-              disabled />
-          </div>
-          <div class="col-auto">
-            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
-          </div>
-        </div>
-        <div class="row mt-5 align-items-center">
-          <div class="col">
-            <input type="text" class="form-control text-center rounded-pill custom-input-disabled"
-              value="Interior Designer" disabled />
-          </div>
-          <div class="col-auto">
-            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
-          </div>
-        </div>
-        <div class="row mt-5 align-items-center">
-          <div class="col">
-            <input type="text" class="form-control text-center rounded-pill custom-input-disabled"
-              value="UI/UX Designer" disabled />
-          </div>
-          <div class="col-auto">
-            <button class="btn btn-primary rounded-pill custom-button-bg">Unlike</button>
-          </div>
-        </div>
-        <div class="row mt-5 align-items-center">
-          <div class="col">
-            <input type="text" class="form-control text-center rounded-pill custom-input-disabled" value="Journalist"
               disabled />
           </div>
           <div class="col-auto">
