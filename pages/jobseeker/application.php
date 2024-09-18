@@ -52,8 +52,22 @@
                 "title" => "3D Animator",
                 "company" => "Nestle Malaysia Berhad",
                 "location" => "Perak",
-                "dateTime" => "5/23/2024 12:50P.M.",
+                "dateTime" => "6/23/2024 12:50P.M.",
                 "status" => "Accepted"
+            ],
+            [
+                "title" => "Motion Designer",
+                "company" => "Samsung Electronics(M) Sdn Bhd",
+                "location" => "Negeri Sembilan",
+                "dateTime" => "4/23/2024 12:50P.M.",
+                "status" => "Pending"
+            ],
+            [
+                "title" => "Event Manager",
+                "company" => "Amway(Malaysia) Sdn Bhd",
+                "location" => "Johor",
+                "dateTime" => "1/23/2024 12:50P.M.",
+                "status" => "Pending"
             ]
         ];
         ?>
@@ -66,11 +80,11 @@
                 <div class="col-2">
                     <p class="text-muted"><?php echo $jobApplication["location"]; ?></p>
                 </div>
-                <div class="col-3">
-                    <p class="text-muted"><?php echo $jobApplication["dateTime"]; ?></p>
+                <div class="col-3 ">
+                    <p class="text-muted "><?php echo $jobApplication["dateTime"]; ?></p>
                 </div>
-                <div class="col-2">
-                    <p class="text-secondary" onclick=""><u>Remove</u></p>
+                <div class="col-2 mb-3 text-muted">
+                    <button type="button" class="btn btn-link text-muted">Remove</button>
                 </div>
                 <div class="col-2">
                     <?php

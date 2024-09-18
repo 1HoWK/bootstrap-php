@@ -7,6 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../assets/css/globals.css">
+    <script>
+        function redirectToJobListing() {
+            window.location.assign('job-listing.php');
+        }
+    </script>
 </head>
 
 <body>
@@ -49,7 +54,7 @@
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <div class="d-flex justify-content-between w-100 mt-auto">
-                    <button type="submit" class="btn btn-outline-primary w-50 me-2 mb-3 rounded-pill">Cancel</button>
+                    <button type="submit" class="btn btn-outline-primary w-50 me-2 mb-3 rounded-pill" onclick="redirectToJobListing()">Cancel</button>
                     <button type="button"
                         class="btn btn-primary w-50 ms-2 mb-3 rounded-pill custom-button-bg">Save</button>
                 </div>

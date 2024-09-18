@@ -10,7 +10,7 @@
 
 <body>
   <!-- footer -->
-  <footer class="footer py-4 bg-light mb-0">
+  <footer class="footer py-4 mb-0" style="background-color: lightgrey;">
     <div class="container text-end">
       <span class="text-muted">Copyright © 2024, TalentLaunch</span>
     </div>

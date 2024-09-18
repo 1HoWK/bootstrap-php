@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
-                <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
+                <img src="../../assets/image/company-logo.png" alt="Profile Picture" class="img-fluid mb-4"
                     style="width: 350px; height: 200px;">
                 <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill"
                     onclick="redirectToJobListing()">Job

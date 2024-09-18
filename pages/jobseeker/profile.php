@@ -49,16 +49,17 @@
                     <input type="text" class="form-control" id="resume" value="resume.pdf" disabled>
                 </div>
                 <div class="mb-3 d-flex justify-content-end">
-                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg"
+                    <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg rounded-pill"
                         onclick="redirectToEditProfile()">Edit Profile</button>
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <img src="../../assets/image/profile-icon.png" alt="Profile Picture" class="img-fluid mb-4"
                     style="width: 200px; height: 200px;">
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg"
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 custom-button-bg rounded-pill"
                     onclick="redirectToApplication()">Application</button>
-                <button type="button" class="btn btn-primary w-50 w-md-25 custom-button-bg">Log Out</button>
+                <button type="button" class="btn btn-primary w-50 w-md-25 custom-button-bg rounded-pill">Log
+                    Out</button>
             </div>
         </div>
     </div>

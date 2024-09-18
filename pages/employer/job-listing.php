@@ -67,7 +67,7 @@
             <div
                 class="row border custom-border border-secondary mt-3 p-2 d-flex align-items-center justify-content-center">
                 <div class="col-3 d-flex justify-content-center">
-                    <p class="h6 mb-0"><?php echo $job["title"]; ?></p>
+                    <a href="job.php" class="h6 mb-0"><?php echo $job["title"]; ?></a>
                 </div>
                 <div class="col-3 d-flex justify-content-center">
                     <p class="h6 mb-0">RM<?php echo $job["allowance"]; ?></p>

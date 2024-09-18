@@ -20,6 +20,10 @@
             window.location.assign('applicant.php');
         }
 
+        function redirectToProfile() {
+            window.location.assign('profile.php');
+        }
+
         function previewNewProfileImage(event) {
             const imageFile = event.target.files[0];
             if (imageFile) {
@@ -65,16 +69,14 @@
                     <input type="text" class="form-control bg-light" id="ssm" value="">
                 </div>
                 <div class="mb-3 d-flex justify-content-evenly">
-                    <button type="submit" class="btn btn-outline-primary w-25 w-md-50 rounded-pill">Cancel</button>
+                    <button type="submit" class="btn btn-outline-primary w-25 w-md-50 rounded-pill" onclick="redirectToProfile()">Cancel</button>
                     <button type="button"
                         class="btn btn-primary w-25 w-md-50 custom-button-bg rounded-pill">Save</button>
                 </div>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
-                <!-- <img src="../../assets/image/wd-logo.png" alt="Profile Picture" class="img-fluid mb-4"
-                    style="width: 350px; height: 200px;"> -->
                 <label style="cursor: pointer;" class="d-inline-block position-relative">
-                    <img id="profile-pic" src="../../assets/image/wd-logo.png" alt="Profile Picture"
+                    <img id="profile-pic" src="../../assets/image/company-logo.png" alt="Profile Picture"
                         class="img-fluid mb-4" style="width: 350px; height: 200px;">
                     <div
                         class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-50 text-white rounded-3">

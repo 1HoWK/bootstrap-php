@@ -15,6 +15,10 @@
             window.location.assign('application.php');
         }
 
+        function redirectToProfile(event) {
+            event.preventDefault();            
+            window.location.assign('profile.php');
+        }
         function previewNewProfileImage(event) {
             const imageFile = event.target.files[0];
             if (imageFile) {
@@ -62,8 +66,10 @@
                         <input class="form-control  bg-light" type="file" id="resumeFile">
                     </div>
                     <div class="mb-3 d-flex justify-content-evenly">
-                        <button type="submit" class="btn btn-outline-primary w-25 w-md-50">Cancel</button>
-                        <button type="button" class="btn btn-primary w-25 w-md-50 custom-button-bg">Save</button>
+                        <button type="submit" class="btn btn-outline-primary w-25 w-md-50 rounded-pill"
+                            onclick="redirectToProfile(event)">Cancel</button>
+                        <button type="button"
+                            class="btn btn-primary w-25 w-md-50 custom-button-bg rounded-pill">Save</button>
                     </div>
                 </form>
             </div>
@@ -86,9 +92,9 @@
                     </div>
                     <input type="file" accept="image/*" style="display: none;" onchange="previewNewProfileImage(event)">
                 </label>
-                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 mt-5 custom-button-bg"
+                <button type="button" class="btn btn-primary mb-4 w-50 w-md-25 mt-5 custom-button-bg rounded-pill"
                     onclick="redirectToApplication()">Application</button>
-                <button type="button" class="btn btn-outline-primary w-50 w-md-25">Log Out</button>
+                <button type="button" class="btn btn-outline-primary w-50 w-md-25 rounded-pill">Log Out</button>
             </div>
         </div>
     </div>
