@@ -28,7 +28,7 @@
 <body>
   <?php include './navbar-after-login.php'; ?>
 
-  <div class="container mt-5" style="margin-bottom: 10rem;">
+  <div class="container mt-5" style="margin-bottom: 12rem;">
     <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
       <div class="p-1 bd-highlight">
         <button class="back-button" onclick="back()">

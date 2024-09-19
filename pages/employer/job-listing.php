@@ -17,7 +17,7 @@
 <body>
     <?php include './navbar-after-login.php'; ?>
 
-    <div class="container text-center " style="margin-bottom: 8.95rem;">
+    <div class="container text-center " style="margin-bottom: 10rem;">
         <h1 class="text-center my-5">Job Listings</h1>
         <div class="row border border-secondary rounded-pill p-2">
             <div class="col-3">

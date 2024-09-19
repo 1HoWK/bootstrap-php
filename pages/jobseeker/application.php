@@ -12,7 +12,7 @@
 <body>
     <?php include './navbar-after-login.php'; ?>
 
-    <div class="container text-center mb-5 ">
+    <div class="container text-center " style="margin-bottom: 6rem;">
         <h1 class="text-center my-5">Application</h1>
         <div class="row border border-secondary rounded-pill p-2">
             <div class="col-3">
